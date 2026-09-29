@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# build artifacts
+dist/
+native/
+_build/
+
+# secrets - never commit
+keys/
+*.author.key
+license.key
+*.pem
+
+# outputs
+*.pyz
+*.exe
+
+# editor
+.vscode/
+.idea/
+*.swp
